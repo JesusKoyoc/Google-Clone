@@ -3,7 +3,7 @@ body {
     lo manipulemos mas adelante */
     padding:0;
     font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -58,11 +58,12 @@ nav .nav-right-section img {
 }
 
 main {
-    margin-top: 150px;
+    position: relative;
+    top: 150px;
     text-align: center;
 }
 
-main .menu-logo {
+main .main-logo {
     width: 530;
     margin: 0 auto;
     margin-bottom: 35px;
@@ -117,10 +118,12 @@ main .main-input .micro-icon {
 main .main-buttons {
     width: 530px;
     margin: 0 auto;
+    
 }
 
 main .main-buttons div {
     display: inline-block;
+    
 }
 
 main .main-buttons button {
@@ -137,5 +140,54 @@ main .main-buttons button {
 main .main-buttons button:hover {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px #000001;
-    color: #222
+    color: #222;
+    cursor: pointer;
+    
+}
+
+
+main .main-buttons button:active {
+    background-color: #e5e5ee;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+} 
+
+/* Footer */
+
+footer {
+    width: 98%;
+    padding: 10px 20px;
+    position: relative; 
+    top: 600px;
+    border-top: 1px solid #e4e4e4; /* Linea divisora superios*/
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #70757a;
+}
+
+
+
+footer ul {
+    list-style: none; /* Quitar los puntos de las listas */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Espaciado ente los enlaces */
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #70757a;
+    font-size: 14px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #202124;
+    cursor: pointer;
 }
