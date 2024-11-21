@@ -41,6 +41,11 @@ el texto. */
 a {
     text-decoration: none;
     cursor: pointer;
+    
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 nav .nav-right-section .menu-icon {
@@ -78,6 +83,7 @@ main .main-input {
     width: 530px;
     margin: 0 auto;
     margin-bottom: 35px;
+    
 }
 
 main .main-input-container {
@@ -96,6 +102,7 @@ main .main-input input {
     outline: none;
 }
 
+
 main .main-input .search-icon {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
     background-repeat: no-repeat;
@@ -103,6 +110,7 @@ main .main-input .search-icon {
     background-size: contain;
     width: 18px;
     height: 18px;
+    
 }
 
 main .main-input .micro-icon {
@@ -118,6 +126,7 @@ main .main-input .micro-icon {
 main .main-buttons {
     width: 530px;
     margin: 0 auto;
+    cursor: pointer;
     
 }
 
@@ -142,6 +151,7 @@ main .main-buttons button:hover {
     box-shadow: 0 1px 1px #000001;
     color: #222;
     cursor: pointer;
+    
     
 }
 
